@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(3, 46, 3);
+    color: rgb(255, 255, 76);
+    padding: 24px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 30px;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    color: rgb(21, 85, 13);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0; auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 34px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 35px; 0;
+    
+}
+
+section h2 {
+    margin-bottom: 16px;
+    justify-content: space-between;
+
+}
+
+section p {
+    margin-bottom: 8px;
+    justify-content: space-between;
+    color: rgb(0, 0, 0)
+}
+
+section img {
+    margin-right: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+}
+
+button{
+    background-color: rgb(21, 85, 13);
+    color: rgb(255, 255, 76);
+    border: none;
+    cursor: pointer;
+    width: 55px;
+    height: 40px;
+}
+
+form button:hover {
+    background-color: rgb(42, 161, 26);
+}
+
+.contact-metods {
+    font-family: "Mulish", sans-serif;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.contact-metods h3 {
+    padding: 40px;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+    height: 30px;
+}
+
+.container p {
+    height: auto;
+}
+
+#plat {
+    padding: 9px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
